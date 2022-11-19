@@ -1,12 +1,10 @@
 package Day2;
 
-import java.util.Scanner;
-
-public class AProgramToReverseTheIntegerNumber {
+public class ReverseIntegerNumberForLoop {
     public static void main(String[] args) {
-        int number = 3456289, reverse = 0;
-        for( ;number != 0; number=number/10)
-        {
+
+        int number = 34, reverse = 0;
+        for ( ;number != 0; number = number / 10) {
             int remainder = number % 10;
             reverse = reverse * 10 + remainder;
         }
